@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetRoute.Domain", "src\PetRoute.Domain\PetRoute.Domain.csproj", "{D0A2B1A1-6F68-4A17-A58D-7E67D2B10A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetRoute.Application", "src\PetRoute.Application\PetRoute.Application.csproj", "{D0A2B1A1-6F68-4A17-A58D-7E67D2B10A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetRoute.Infrastructure", "src\PetRoute.Infrastructure\PetRoute.Infrastructure.csproj", "{D0A2B1A1-6F68-4A17-A58D-7E67D2B10A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetRoute.Api", "src\PetRoute.Api\PetRoute.Api.csproj", "{D0A2B1A1-6F68-4A17-A58D-7E67D2B10A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetRoute.UnitTests", "tests\PetRoute.UnitTests\PetRoute.UnitTests.csproj", "{D0A2B1A1-6F68-4A17-A58D-7E67D2B10A05}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A01}.Release|Any CPU.Build.0 = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A02}.Release|Any CPU.Build.0 = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A03}.Release|Any CPU.Build.0 = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A04}.Release|Any CPU.Build.0 = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D0A2B1A1-6F68-4A17-A58D-7E67D2B10A05}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
+EndGlobal
